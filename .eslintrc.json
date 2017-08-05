@@ -1,5 +1,9 @@
 {
     "extends": "airbnb-base",
+    "indent": [
+        "error",
+        2
+    ],
     "globals": {
         "describe": true,
         "it": true
