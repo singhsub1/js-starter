@@ -4,8 +4,8 @@
   "description": "Starter repo for JS projects",
   "main": "app.js",
   "scripts": {
-    "test": "mocha **/*.spec.js --compilers js:babel-register",
-    "test:watch": "mocha -w **/*.spec.js --compilers js:babel-register"
+    "test": "mocha -R progress **/*.spec.js --compilers js:babel-register",
+    "test:watch": "mocha -w -R progress **/*.spec.js --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
